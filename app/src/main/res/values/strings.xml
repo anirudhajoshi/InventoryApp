@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ListView empty message - set button text -->
+    <string name="userinfo">There are no products in the inventory. \n\nPlease click button to add
+        a product</string>
+    <string name="addproduct">Add a product</string>
+
+    <!-- Dialog edit texts -->
+    <string name="productname">Enter product name</string>
+    <string name="productquantity">Enter product quantity</string>
+    <string name="productprice">Enter product price</string>
+    <string name="imagefile">Enter image name with extension</string>
+
+    <!-- Dialog add/cancel buttons -->
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog add/cancel buttons -->
+    <string name="dialog_title">Add Product</string>
+    <string name="emptyname">Product name cannot be empty</string>
+    <string name="numbersonly">Quantity cannot be empty and should be a positive number</string>
+    <string name="floatsonly">Price cannot be empty and should be a positive number with 2 decimals</string>
+
+    <!-- List item buttons -->
+    <string name="updateproduct">Add Product</string>
+    <string name="deleteproduct">Delete this product</string>
+    <string name="productdetails">Details</string>
+
+
+    <!-- Custom Adapter String -->
+    <string name="negativequantity">Cannot decrement quantity. Quantity should be >= 0</string>
+    <string name="productdetails_activity">Product Details</string>
+
+    <!-- Product Details -->
+    <string name="productname_label">"Product Name: "</string>
+    <string name="productquantity_label">"Product Quantity: "</string>
+    <string name="editquantity_label">"Update quantity: "</string>
+    <string name="editquantity_hint">Enter a number > 0</string>
+    <string name="productprice_label">"Product Price: "</string>
+    <string name="productimage_label">"Product Image: "</string>
+    <string name="updateproductquantity">"Update Quantity"</string>
+    <string name="ordermore">"Order More"</string>
+    <string name="deleteproductbutton">Delete this product</string>
+    <string name="quantityrequested_label">"Quantity requested: "</string>
+    <string name="productdeleted">This product has been deleted from the database</string>
+    <string name="updatedquantitynegative">Product quantity must be greater than 0</string>
+    <string name="updatedquantityerror">Product quantity must be a number greater than 0</string>
+    <string name="noimageprovided">Image name not provided</string>
+
+    <!-- Delete Dialog message -->
+    <string name="deletedialogtitle">Delete confirmation</string>
+    <string name="deletedialogmessage">Are you sure you want to delete this product?</string>
+    <string name="deletedialogconfirm">Yes</string>
+    <string name="deletedialogcancel">No</string>
+
+</resources>
